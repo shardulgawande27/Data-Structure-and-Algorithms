@@ -50,3 +50,35 @@ public class swapPairs {
         System.out.println();
     }
 }
+
+
+//solving using java library
+//import java.util.LinkedList;
+//
+//public class swapPairs {
+//    public static void main(String[] args) {
+//        // Creating the linked list [1, 2, 3, 4]
+//        LinkedList<Integer> list = new LinkedList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        list.add(4);
+//
+//        // Swapping nodes in pairs
+//        LinkedList<Integer> swappedList = swapPairs(list);
+//
+//        // Printing the swapped list
+//        System.out.println(swappedList);
+//    }
+//
+//    public static LinkedList<Integer> swapPairs(LinkedList<Integer> list) {
+//        // Iterate through the list and swap elements in pairs
+//        for (int i = 0; i < list.size() - 1; i += 2) {
+//            // Swap the elements at index i and i+1
+//            Integer temp = list.get(i);
+//            list.set(i, list.get(i + 1));
+//            list.set(i + 1, temp);
+//        }
+//        return list;
+//    }
+//}
