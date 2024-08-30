@@ -13,14 +13,20 @@ public class Main {
 
 
         System.out.println(list);
+        list.printRec();
+        list.removeEnd();
+        System.out.println(list);
         System.out.println(list.sum());
         System.out.println(list.indexOf(4));
         list.insertFirst(14);
         System.out.println(list);
         list.insertAt(3,10);
         list.insertAt2(0,20);
-
         System.out.println(list);
+        list.reverse();
+        list.removeStart();
+        System.out.println(list);
+
 
 
 
